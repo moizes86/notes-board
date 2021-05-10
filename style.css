@@ -1,0 +1,14 @@
+body {
+  background-image: url("./NotesTaskBoard/img/background.jpg");
+}
+
+.note {
+  background-image: url("./NotesTaskBoard/img/note.png");
+  height: 282px;
+  max-width: 282px;
+}
+
+.note p:first-child {
+  max-height: 120px;
+  overflow-y: auto;
+}
